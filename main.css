@@ -91,6 +91,10 @@
     }
 }
 
+.container {
+    padding: 15px;
+}
+
 .card-title{
 	color:rgb(60, 130, 196);
 	font-family:Arial, Helvetica, sans-serif;
@@ -144,7 +148,7 @@ p{
 	padding-left: 60px;
 	padding-right: 60px;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	opacity: 0.8;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
@@ -219,7 +223,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	text-align: center;
+	/* text-align: center; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 

@@ -102,8 +102,26 @@
 	font-size: 20px;
 }
 
+.card-deck{
+    padding-bottom: 1%;
+}
+
 #home-background{
     background: url("example.png");
+    height: 100%;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#team-background{
+    background: url("team_bg.jpeg");
     height: 100%;
 	width: 100%;
 	background-attachment: fixed;
@@ -130,7 +148,7 @@
 p{
 	text-align: center;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-	color: white;
+	color: black;
 }
 
 .home-sub{

@@ -91,10 +91,6 @@
     }
 }
 
-.container {
-    padding: 15px;
-}
-
 .card-title{
 	color:rgb(60, 130, 196);
 	font-family:Arial, Helvetica, sans-serif;
@@ -107,7 +103,9 @@
 }
 
 #home-background{
-    background: url("example.png");
+    /* Photo by Teodor Drobota on Unsplash */
+    /* background: url("blackyellow.jpeg");  */
+    background-color: rgb(219, 195, 108);
     height: 100%;
 	width: 100%;
 	background-attachment: fixed;
@@ -137,11 +135,11 @@
 .larger-heading{
 	padding-top: 100px;
 	padding-bottom: 20px;
-	font-size: 70px;
-	color: rgb(60, 130, 196);
+	font-size: 100px;
+	color: rgb(183, 30, 30);
 	font-weight: bold;
 	opacity: 0.8;
-	text-shadow: 2px 2px darkgrey;
+	text-shadow: 2px 2px rgb(0, 0, 0);
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -159,19 +157,19 @@ p{
 	text-align: center;
 	opacity: 0.8;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-	color: white;
+	color: rgb(183, 30, 30);
 }
 
 .nav-link {
 	padding-left: 60px;
 	padding-right: 60px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	opacity: 0.8;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
 	text-decoration: underline;
-	color: rgb(60, 130, 196);
+	color: rgb(44, 114, 57);
 }
 
 nav {
@@ -241,7 +239,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	/* text-align: center; */
+	text-align: center;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
